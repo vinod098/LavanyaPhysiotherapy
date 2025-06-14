@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  background: #00838f;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background: #e0f7fa;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #f1f1f1;
+}
+.feature {
+  width: 30%;
+  margin: 1rem 0;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #006064;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#services-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.h-primary {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.h-secondary {
+  font-size: 1.4rem;
+  margin: 15px 0 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact-box {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #cbc6c6;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .center {
+      text-align: center;
+    }
+    .contact-info h3 {
+      margin-top: 20px;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+    .highlight {
+      color: #e63946;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px;
+      /* background-color: #eef; */
+    }
+    /* nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    } */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #00838f;
+  color: white;
+}
