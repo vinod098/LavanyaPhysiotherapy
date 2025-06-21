@@ -20,21 +20,6 @@ nav a {
   text-align: center;
   background: #e0f7fa;
 }
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 2rem;
-  background: #f1f1f1;
-}
-.feature {
-  width: 30%;
-  margin: 1rem 0;
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
 .cta {
   display: inline-block;
   margin-top: 1rem;
@@ -44,93 +29,9 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
 }
-#services-container {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
-}
-
-.h-primary {
+.center {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
 }
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.service-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  overflow: hidden;
-  text-align: center;
-  padding: 20px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-}
-
-.service-card img {
-  width: 100%;
-  max-height: 180px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.h-secondary {
-  font-size: 1.4rem;
-  margin: 15px 0 10px;
-}
-
-.service-card p {
-  font-size: 0.95rem;
-  color: #555;
-}
-
-.contact-box {
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 40px;
-      background-color: #f5f2f2;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    }
-    .center {
-      text-align: center;
-    }
-    .contact-info h3 {
-      margin-top: 20px;
-    }
-    .contact-info p {
-      font-size: 1.1rem;
-      margin: 10px 0;
-    }
-    .highlight {
-      color: #e63946;
-      font-weight: bold;
-      margin-top: 30px;
-    }
-    header, footer {
-      text-align: center;
-      padding: 20px;
-      /* background-color: #eef; */
-    }
-    /* nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    } */
-
 .blog-section {
   padding: 40px 20px;
   background-color: #f8f9fa;
@@ -178,6 +79,65 @@ nav a {
   text-decoration: none;
   color: inherit;
 }
+.blog-card.contact-card {
+  max-width: 600px;              /* Increased from 350px to 600px */
+  margin: 10px auto;             /* More spacing around */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12); /* Slightly deeper shadow */
+  text-align: center;
+  padding: 10px;                 /* More padding */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.blog-card.contact-card img {
+  width: 100%;
+  max-height: 250px;             /* Optional: control tall images */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-card.contact-card h3 {
+  font-size: 26px;
+  color: #2a2a2a;
+  margin-bottom: 15px;
+}
+
+.blog-card.contact-card p {
+  font-size: 17px;
+  margin: 10px 0;
+  color: #444;
+  line-height: 1.5;
+}
+
+.blog-card.contact-card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.blog-card.contact-card .cta {
+  display: inline-block;
+  margin-top: 18px;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.blog-card.contact-card .cta:hover {
+  background-color: #20b858;
+}
+@media (max-width: 640px) {
+  .blog-card.contact-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+
 footer {
   text-align: center;
   padding: 1rem;
